@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  nodejs:
+    image: node:latest
+
+ environment:
+ volumes:
+  - '/root/docker/swiftcv/data:/data'
